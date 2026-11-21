@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Mendomi Lab（日本語）</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<script>
+// mendomi.jp/xxx は mendomilab.com/ja/xxx へ（ないページは日本語トップ）
+var p=location.pathname.replace(/^\/+/,'');
+location.replace('https://mendomilab.com/ja/'+p+location.search+location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://mendomilab.com/ja/">
+</head>
+<body style="font-family:system-ui,sans-serif;padding:24px">
+<p>Mendomi Lab の日本語ページに移動します。<a href="https://mendomilab.com/ja/">こちら</a></p>
+</body>
+</html>
